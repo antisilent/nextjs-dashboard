@@ -80,7 +80,7 @@ export type CustomerField = {
   name: string;
 };
 
-export type InvoiceForm = {
+export type InvoiceFormFields = {
   id: string;
   customer_id: string;
   amount: number;
